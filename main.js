@@ -50,3 +50,6 @@ let scene, camera, renderer;
       init();
 
         document.getElementById("wrapper").innerHTML = "Paragraph changed.";
+window.onload = function() {
+launchFullscreen(document.documentElement);
+}
